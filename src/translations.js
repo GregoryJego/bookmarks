@@ -1,0 +1,25 @@
+export const translations = {
+    type: "Type",
+    preview: "Aperçu",
+    url: "Url",
+    title: "Titre",
+    author: "Auteur",
+    addedDate: "Date d'ajout",
+    publicationDate: "Date de publication",
+    widthAndHeight: "Largeur x hauteur",
+    duration: "Durée",
+    addedDateFromNow: "Date d'ajout",
+    ago: "il y a ",
+    minutes: "minute(s)",
+    seconds: "seconde(s)",
+    hours: "heure(s)",
+    delete: "Supprimer",
+    send: "Envoyer",
+    // error messages
+    invalidUrl: "Veuillez entrer une URL valide",
+    responseKO: "Mauvaise réponse du réseau",
+    errorOccured: "Une erreur s'est produite : ",
+    enterUrl: "Entrez l'url",
+    alreadyInBookmarks: 'Déjà présent dans les bookmarks',
+    unknown: 'inconnu'
+}
