@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import {AddForm} from './components/AddForm'
+import {BookmarksList} from './components/BookmarksList'
+import {Bookmark} from './interfaces'
 
-function App() {
+const App: React.FC = () => {
+  const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AddForm bookmarks={bookmarks} setBookmarks={setBookmarks}/>
+      <BookmarksList bookmarks={bookmarks} setBookmarks={setBookmarks}/>
     </div>
   );
 }
