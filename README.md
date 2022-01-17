@@ -2,6 +2,8 @@
 
 Create video (Vimeo) and photo bookmarks (Flickr)
 
+[![Screenshot.png](https://i.postimg.cc/LXRh99c2/Screenshot-2022-01-17-at-21-58-05.png)](https://postimg.cc/v1qGXs8N)
+
 ## Available Scripts
 
 In the project directory, you can run:
